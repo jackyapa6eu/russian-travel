@@ -1,0 +1,14 @@
+@import url(./__title/hello-word__title.css);
+@import url(./__subtitle/hello-word__subtitle.css);
+@import url(./__img/hello-word__img.css);
+@import url(./__figure/hello-word__figure.css);
+@import url(./__caption/hello-word__caption.css);
+
+.hello-word {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 92px;
+  max-width: 77%;
+  margin: 0 auto 92px auto;
+}

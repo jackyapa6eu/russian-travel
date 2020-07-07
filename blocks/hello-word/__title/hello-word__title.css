@@ -1,0 +1,10 @@
+.hello-word__title {
+  max-width: 720px;
+  margin: 0;
+  margin-bottom: 32px;
+  color: #FFFFFF;
+  font-size: 96px;
+  line-height: 1.04;
+  font-weight: 900;
+  text-align: center;
+}
