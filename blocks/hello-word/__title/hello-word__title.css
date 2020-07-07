@@ -8,3 +8,24 @@
   font-weight: 900;
   text-align: center;
 }
+
+@media screen and (max-width: 720px) {
+  .hello-word__title {
+    color: red;
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hello-word__title {
+    color: yellow;
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hello-word__title {
+    color: blue;
+    font-size: 40px;
+  }
+}
