@@ -1,0 +1,34 @@
+@import url(./__item/gallery__item.css);
+
+.gallery {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 284px);
+  margin: 0 auto;
+  grid-gap: 15px;
+
+}
+
+@media screen and (min-width: 932px) and (max-width: 1181px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fit, 300px);
+  }
+}
+
+@media screen and (min-width: 719px) and (max-width: 931px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fit, 352px);
+  }
+}
+
+/*@media screen and (min-width: 361px) and (max-width: 718px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fit, 352px);
+  }
+} */
+
+@media screen and (max-width: 360px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fit, 288px);
+  }
+}
