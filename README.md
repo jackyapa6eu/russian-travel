@@ -13,11 +13,8 @@
 * media запросы
 * Псевдоэлементы
 
-<<<<<<< HEAD
+
 [Ссылка на сайт на github Pages](https://jackyapa6eu.github.io/russian-travel/)
-=======
-* [Ссылка на сайт](https://jackyapa6eu.github.io/russian-travel/)
->>>>>>> origin/master
 
 
 
