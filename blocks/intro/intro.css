@@ -1,8 +1,30 @@
 @import url(./__title/intro__title.css);
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
+@import url(./_accent/intro_accent.css);
 
 .intro {
   max-width: 77%;
   margin: 0 auto 92px auto;
+}
+
+
+@media screen and (min-width: 1000px) and (max-width: 1150px) {
+  .intro {
+    max-width: 92%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 999px) {
+  .intro {
+    max-width: 94%;
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 599px) {
+  .intro {
+    max-width: 90%;
+    margin-bottom: 64px;
+  }
 }

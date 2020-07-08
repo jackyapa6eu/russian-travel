@@ -21,14 +21,20 @@
   }
 }
 
-/*@media screen and (min-width: 361px) and (max-width: 718px) {
-  .gallery {
-    grid-template-columns: repeat(auto-fit, 352px);
-  }
-} */
-
 @media screen and (max-width: 360px) {
   .gallery {
     grid-template-columns: repeat(auto-fit, 288px);
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 999px) {
+  .gallery {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 599px) {
+  .gallery {
+    margin-bottom: 64px;
   }
 }
