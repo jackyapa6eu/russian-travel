@@ -8,3 +8,18 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@media screen and (min-width: 451px) and (max-width: 850px) {
+  .header__logo {
+    left: 24px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 450px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+    left: 16px;
+    top: 16px;
+  }
+}

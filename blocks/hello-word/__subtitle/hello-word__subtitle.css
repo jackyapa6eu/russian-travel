@@ -1,7 +1,30 @@
 .hello-word__subtitle {
-  max-width: 640px;
+  white-space: pre-line;
+  margin: 0;
   text-align: center;
   color: #FFFFFF;
   font-size: 30px;
   line-height: 1.2;
+  margin-bottom: 64px;
+}
+
+@media screen and (min-width: 451px) and (max-width: 850px) {
+  .hello-word__subtitle {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 655px) {
+  .hello-word__subtitle {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 529px) {
+  .hello-word__subtitle {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 40px;
+  }
 }

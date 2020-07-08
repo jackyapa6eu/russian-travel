@@ -16,3 +16,10 @@
     line-height: 1.62;
   }
 }
+
+@media screen and (max-width: 650px) {
+  .place__paragraph {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}

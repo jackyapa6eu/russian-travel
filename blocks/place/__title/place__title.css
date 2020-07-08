@@ -6,11 +6,16 @@
   color: #FFFFFF;
 }
 
-
 @media screen and (max-width: 850px) {
   .place__title {
     font-size: 42px;
     line-height: 1.1;
     white-space: pre-line;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .place__title {
+    padding-left: 5%;
   }
 }

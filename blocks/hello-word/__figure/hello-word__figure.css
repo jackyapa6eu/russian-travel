@@ -1,4 +1,10 @@
 .hello-word__figure {
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 92%;
+}
+
+@media screen and (max-width: 1000px) {
+  .hello-word__figure {
+    max-width: 100%;
+  }
 }

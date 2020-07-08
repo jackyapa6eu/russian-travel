@@ -1,5 +1,6 @@
 @import url(./__logo/header__logo.css);
 @import url(./__link/header__link.css);
+@import url(./__link/_active/header__link_active.css);
 
 .header {
   position: relative;
@@ -10,4 +11,19 @@
   margin-bottom: 16px;
   min-height: 120px;
   padding-right: 48px;
+}
+
+@media screen and (min-width: 451px) and (max-width: 850px) {
+  .header {
+    padding-right: 24px;
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 450px) {
+  .header {
+    padding-right: 16px;
+    min-height: 78px;
+    margin-bottom: 28px;
+  }
 }

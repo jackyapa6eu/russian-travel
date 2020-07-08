@@ -5,5 +5,13 @@
   font-size: 18px;
   line-height: 1.22;
   text-decoration: underline;
+  max-width: fit-content;
+  max-width: -moz-fit-content;
   color: #FFFFFF;
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+.place__link:hover {
+  opacity: .8;
 }

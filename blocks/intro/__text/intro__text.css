@@ -6,3 +6,9 @@
   line-height: 1.62;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 800px) {
+  .intro__text {
+    max-width: 100%;
+  }
+}
