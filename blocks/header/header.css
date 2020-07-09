@@ -8,9 +8,17 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  box-sizing: border-box;
   margin-bottom: 16px;
   min-height: 120px;
   padding-right: 48px;
+}
+
+@media screen and (min-width: 1281px) {
+  .header {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 451px) and (max-width: 850px) {
