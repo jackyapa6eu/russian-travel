@@ -9,9 +9,10 @@
   max-width: -moz-fit-content;
   color: #FFFFFF;
   opacity: 1;
-  transition: opacity 1s linear;
+  transition: opacity .3s linear;
 }
 
 .place__link:hover {
+  /*Такая прозрачность указана в макете, уменьшил время изменения с 1 сек до .3 сек*/
   opacity: .8;
 }

@@ -1,0 +1,20 @@
+.footer__item {
+  max-width: fit-content;
+  max-width: -moz-fit-content;
+  margin-right: 18px;
+}
+
+.footer__item:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .footer__item {
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+
+  .footer__item:last-of-type {
+    margin-bottom: 0;
+  }
+}

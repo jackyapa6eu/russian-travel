@@ -3,18 +3,14 @@
   font-size: 16px;
   line-height: 1.12;
   color: #FFFFFF;
-  margin-right: 18px;
-  opacity: 1;
-  transition: opacity .5s linear;
-  max-width: fit-content;
-  max-width: -moz-fit-content;
-}
 
-.footer__link:last-of-type {
-  margin-right: 0;
+  opacity: 1;
+  transition: opacity .3s linear;
+
 }
 
 .footer__link:hover {
+  /*Такая прозрачность указана в макете, уменьшил время изменения с .5 сек до .3 сек*/
   opacity: .8;
 }
 
@@ -25,7 +21,9 @@
     margin-right: 0;
     margin-bottom: 32px;
   }
+  /*
   .footer__link:last-of-type {
     margin-bottom: 0;
   }
+  */
 }
