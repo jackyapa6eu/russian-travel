@@ -11,6 +11,6 @@
 - media запросы
 - Псевдоэлементы
 
-## Статус проекта: завершен
+## Статус проекта: `завершен`
 
 [Ссылка на сайт на github Pages](https://jackyapa6eu.github.io/russian-travel/)
